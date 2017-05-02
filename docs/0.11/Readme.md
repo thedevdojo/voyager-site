@@ -13,6 +13,30 @@ Hm Hm (cough)... I mean... Arrgg! Ye young scallywag! What say we learn how to s
 
 # Getting Started
 
+## What Is Voyager?
+
+Before installing Voyager you may want to take a quick moment to learn **What It Is** & **What It Isn't**
+
+**What It Is**
+
+- An admin interface for your Laravel app
+- An easy way to add/edit/delete data for your app
+- A menu builder (build menus in Voyager for your app)
+- A media manager for your files
+- CRUD/BREAD generator [learn more about BREAD here](#core-concepts-bread)
+
+Voyager is simply an admin for your Laravel app. Whatever you want your app to do on the front-end is completely up to you. You are in control of your application and you can use Voyager to make your life easier by adding data, editing users, creating menus, and many other administrative tasks.
+
+**What It Isn't**
+
+- A CMS (Content Management System)
+- A Blogging Platform
+- Wordpress (Bleh 😜)
+
+Voyager is not a CMS or a Blogging Platform. It can be used to create a CMS or a Blogging Platform, but out of the box it is neither of those. As stated in the previous section you have full control on what your application will do and how it will function.
+
+With Laravel & Voyager you can create any kind of application your heart desires. Laravel & Voyager are simply tools to make it easier to build.
+
 ## Installation
 
 Voyager is super easy to install. After creating your new Laravel application you can include the Voyager package with the following command: 
@@ -124,6 +148,10 @@ php artisan view:clear
 
 And now you'll be upgraded to the latest version.
 
+> Quick Update: If you are upgrading from v0.11.9 or lower you will need to add a new migration. Please run the following migration file below if you are upgrading from v0.11.9 or lower:
+
+- [2017_04_21_000000_add_order_to_data_rows_table.php](https://github.com/the-control-group/voyager/blob/master/publishable/database/migrations/2017_04_21_000000_add_order_to_data_rows_table.php)
+
 ### Version 0.10 to 0.11
 
 > Quick Note: The upgrade from 0.10 to 0.11 has been documented as well as we could. If you notice a missing step, please feel free to open an issue. Thanks.
@@ -166,6 +194,7 @@ Alternatively, if you with to add the new tables manually, below are links to th
  - [2017_01_15_000000_create_permission_groups_table.php](https://github.com/the-control-group/voyager/blob/master/publishable/database/migrations/2017_01_15_000000_create_permission_groups_table.php)
  - [2017_01_15_000000_make_table_name_nullable_in_permissions_table.php](https://github.com/the-control-group/voyager/blob/master/publishable/database/migrations/2017_01_15_000000_make_table_name_nullable_in_permissions_table.php)
  - [2017_03_06_000000_add_controller_to_data_types_table.php](https://github.com/the-control-group/voyager/blob/master/publishable/database/migrations/2017_03_06_000000_add_controller_to_data_types_table.php)
+ - [2017_04_21_000000_add_order_to_data_rows_table.php](https://github.com/the-control-group/voyager/blob/master/publishable/database/migrations/2017_04_21_000000_add_order_to_data_rows_table.php)
 
 
 #### Possible updates to code in your custom controllers and views
@@ -315,11 +344,11 @@ You can view your current Menus by clicking on the *Tools->Menu Builder* button.
 
 When you are ready to add menu items to your menu you can click on the builder button of the corresponding menu:
 
-![Voyager Menus](/voyager/docs/0.10/images/menu-01.jpg)
+![Voyager Menus](/docs/0.10/images/menu-01.jpg)
 
 This will take you to the Menu Builder where you can add, edit, and delete menu items.
 
-![Voyager Menus](/voyager/docs/0.10/images/menu-02.jpg)
+![Voyager Menus](/docs/0.10/images/menu-02.jpg)
 
 After creating and configuring your menu, you can easily implement that menu in your application. Say that we have a menu called `main`. Inside of any view file we could now output the menu by using the following code:
 
