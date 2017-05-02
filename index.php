@@ -31,52 +31,8 @@
     <div class="hero" id="home">
       <div id="bgdim"></div>
       <!-- Navigation -->
-      <div class="navbar" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a href="index.html" title="Voyager Laravel Admin Package">
-              <img src="images/logo.png" alt="Voyager Laravel Admin Package">
-            </a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>  
-          <div class="navbar-collapse collapse">
-            <div class="collapse navbar-collapse">
-              <ul id="menu-primary" class="nav navbar-nav">
-                <li>
-                  <a href="#home" class="scroll" title="Features">
-                    <span data-hover="Pricing">Home</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#features" class="scroll" title="Features">
-                    <span data-hover="Pricing">Features</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#demo" class="scroll" title="Demo">
-                    <span data-hover="Demo">Demo</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/the-control-group/voyager" target="_blank" title="Download">
-                    <span data-hover="Download">Download</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="docs/" target="_blank" title="Documentation">
-                    <span data-hover="Documentation">Docs</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+      <?php include('partials/nav.php'); ?>
+
       <!-- Hero content -->
       <div class="container">
           <div class="row blurb">
@@ -91,7 +47,7 @@
           </div>
           <div class="row preview">
             <div class="col-md-10 col-md-offset-1">
-              <img src="images/hero-app.png" alt="Voyager Admin Package" class="img-responsive">
+              <img src="images/hero-app.jpg" alt="Voyager Admin Package" class="img-responsive animated slideInUp">
             </div>
           </div>
       </div>
@@ -139,7 +95,7 @@
               <div class="row">
                 <div class="col-md-6 col-md-push-6">
                   <h4 class="left">Fully Functional Media Manager</h4>
-                  <p>Voyager has an amazing fully function media manager which allows you to view/edit/delete files from your storage. All files in your application will be easily accessible and will live in a single place. Compatible with local or s3 file storage.</p>
+                  <p>Voyager has an amazing fully functional media manager which allows you to view/edit/delete files from your storage. All files in your application will be easily accessible and will live in a single place. Compatible with local or s3 file storage.</p>
                 </div>
               </div>
             </div>
@@ -240,7 +196,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-5 copyright">
-            <p>&copy; Voyager 2016. All rights reserved.<br />
+            <p>&copy; Voyager 2017. All rights reserved.<br />
             <a href="https://www.thecontrolgroup.com/" title="Voyager Package Built by The Control Group">Voyager Package Built by The Control Group</a></p>
           </div>
           <!-- Social icons -->

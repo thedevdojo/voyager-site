@@ -23,6 +23,7 @@
 		// Page loading animation
 		setTimeout(function() {
 	        $('body').addClass('loaded');
+	        $('.showOnLoad').show();
 	    }, 2000);
 
 	    // Wrap body content
