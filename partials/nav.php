@@ -1,7 +1,7 @@
 <div class="navbar" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <a href="index.html" title="Voyager Laravel Admin Package">
+      <a href="/" title="Voyager Laravel Admin Package">
         <img src="images/logo.png" alt="Voyager Laravel Admin Package">
       </a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
