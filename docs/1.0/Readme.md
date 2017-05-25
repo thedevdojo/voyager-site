@@ -751,9 +751,9 @@ This is all handled via the `voyager.php` config, if you have not started with a
 
 You may want to look at the `/vendor/tcg/voyager/publishable/config/voyager.php` to see the config layout and check for any missing options.
 
-## Troubleshooting
+# Troubleshooting
 
-#### Using HTTPS on your site
+## Using HTTPS on your site
 
 **Symptom:**
 When visiting your site with HTTPS, images within Voyager fail to load.
