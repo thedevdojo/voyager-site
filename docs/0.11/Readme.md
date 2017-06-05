@@ -588,7 +588,7 @@ Since `v0.10.13` you can do the `required` and `max:12` rule the following way:
 ```
 {
     "validation": {
-        "rules": [
+        "rule": [
             "required",
             "max:12"
         ]
