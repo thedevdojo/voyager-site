@@ -781,4 +781,4 @@ As an aside, if you need a fully-qualified URL, you could wrap the call to `Voya
 asset(Voyager::image('...'))
 ```
 
-This will return a the current protocol, domain, and correct path to that image.
+This will return the current protocol, domain, and correct path to that image.
