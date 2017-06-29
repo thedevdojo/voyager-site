@@ -661,6 +661,74 @@ You can optionally add a new page_slug property to the relationships object in t
 
 And that's how we can perform a One-to-One relationship. Next, you'll see how to create a Many-to-Many relationship.
 
+##### Filtering the relationship
+
+In addition to the selection of the relationship, you can also add a condition (`where`) to filter the results that will be displayed in the combo
+You have to add the ```Where``` clause on relationship at Optional Details 
+
+Add 1 variable looking for the `id` directly 
+
+> ```
+> {
+>     "relationship": {
+>         "key": "id",
+>         "label": "name",
+>         "where": [
+>             "1"
+>         ]
+>     }
+> }
+> ```
+
+```
+$model= DB::table('table')
+                 ->where('id',  1)
+                 ->get();
+```
+
+2 variables to compare two fields with "=" by defoult
+
+> ```
+> {
+>     "relationship": {
+>         "key": "id",
+>         "label": "name",
+>         "where": [
+>             "parent_id",
+>             "1"
+>         ]
+>     }
+> }
+> ```
+```
+$model= DB::table('table')
+                 ->where('parent_id',  1)
+                 ->get();
+```
+ And finaly another option of 3 variables to add the type of condition.
+
+> ```
+> {
+>     "relationship": {
+>         "key": "id",
+>         "label": "name",
+>         "where": [
+>             "name",
+>             "like"
+>             "Star%"
+>         ]
+>     }
+> }
+> ```
+
+```
+$model= DB::table('table')
+                 ->where('name', 'like', 'Star%')
+                 ->get();
+```
+
+
+
 #### Multiple Select
 
 Using a multi select dropdown we can create a `belongsToMany` relationship. This adds a Many-to-Many relationship between 2 tables using a pivot table.
