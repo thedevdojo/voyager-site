@@ -542,7 +542,7 @@ Using the bread builder you may wish to automatically generate slugs of a cetain
 }
 ```
 
-This will automatically generate the slug from the input of the `title` field. If a slug does already exists, it will only be updated if `forceUpdate` is set enabled, by default this is dissabled.
+This will automatically generate the slug from the input of the `title` field. If a slug does already exists, it will only be updated if `forceUpdate` is set enabled, by default this is disabled.
 
 ### Relationships
 
@@ -781,4 +781,4 @@ As an aside, if you need a fully-qualified URL, you could wrap the call to `Voya
 asset(Voyager::image('...'))
 ```
 
-This will return a the current protocol, domain, and correct path to that image.
+This will return the current protocol, domain, and correct path to that image.

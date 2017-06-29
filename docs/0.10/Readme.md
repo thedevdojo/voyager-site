@@ -567,7 +567,7 @@ Using the bread builder you may wish to automatically generate slugs of a cetain
 }
 ```
 
-This will automatically generate the slug from the input of the `title` field. If a slug does already exists, it will only be updated if `forceUpdate` is set enabled, by default this is dissabled.
+This will automatically generate the slug from the input of the `title` field. If a slug does already exists, it will only be updated if `forceUpdate` is set enabled, by default this is disabled.
 
 ### Relationships
 
