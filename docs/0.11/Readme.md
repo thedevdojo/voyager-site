@@ -645,6 +645,14 @@ public function authorId(){
 
 > Note: the method used for this relationship, must match the camelCase version of the row from the `pages` table. Which is why we used `authorId` as the method name to tie the relationship.
 
+By default Voyager will use the User::all() method to populate the dropdown. However you can provide you own list by defining the `authorIdList()` on your `Page` class:
+
+```
+public function authorIdList(){
+    return User::where('active', 1)->orderBy('created_at')->get();
+}
+```
+
 You can optionally add a new page_slug property to the relationships object in the BREAD details in order to display proper links to relationship records. i.e.:
 
 ```
