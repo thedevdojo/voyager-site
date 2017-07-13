@@ -588,7 +588,7 @@ Since `v0.10.13` you can do the `required` and `max:12` rule the following way:
 ```
 {
     "validation": {
-        "rules": [
+        "rule": [
             "required",
             "max:12"
         ]
@@ -609,7 +609,7 @@ Using the bread builder you may wish to automatically generate slugs of a cetain
 }
 ```
 
-This will automatically generate the slug from the input of the `title` field. If a slug does already exists, it will only be updated if `forceUpdate` is set enabled, by default this is dissabled.
+This will automatically generate the slug from the input of the `title` field. If a slug does already exists, it will only be updated if `forceUpdate` is set enabled, by default this is disabled.
 
 ### Relationships
 
@@ -644,6 +644,14 @@ public function authorId(){
 ```
 
 > Note: the method used for this relationship, must match the camelCase version of the row from the `pages` table. Which is why we used `authorId` as the method name to tie the relationship.
+
+By default Voyager will use the User::all() method to populate the dropdown. However you can provide you own list by defining the `authorIdList()` on your `Page` class:
+
+```
+public function authorIdList(){
+    return User::where('active', 1)->orderBy('created_at')->get();
+}
+```
 
 You can optionally add a new page_slug property to the relationships object in the BREAD details in order to display proper links to relationship records. i.e.:
 
@@ -826,4 +834,4 @@ As an aside, if you need a fully-qualified URL, you could wrap the call to `Voya
 asset(Voyager::image('...'))
 ```
 
-This will return a the current protocol, domain, and correct path to that image.
+This will return the current protocol, domain, and correct path to that image.
