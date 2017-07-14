@@ -178,7 +178,7 @@
           <div class="col-md-4 col-sm-6 icon scrollme animateme" data-when="enter" data-from=".7" data-to="0.15" data-opacity="0" data-scale="0" data-translatey="100">
             <span class="animateme" data-when="enter" data-from="1" data-to="0.15" data-rotatez="-90">&#xe005;</span>
             <h5 class="no-underline">Add Custom Settings</h5>
-            <p>You can easily add custom settings in Voyager and use them on the front-end of your site/app.</p>
+            <p>You can easily add custom settings in Voyager and use them on the front-end of your site.</p>
           </div>
           <!-- Icon block -->
           <div class="col-md-4 col-sm-6 icon scrollme animateme" data-when="enter" data-from=".7" data-to="0.15" data-opacity="0" data-scale="0" data-translatey="100">
