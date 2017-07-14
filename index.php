@@ -110,7 +110,7 @@
               <div class="row">
                 <div class="col-md-6 col-md-push-6">
                   <h4 class="left">Menu Builder</h4>
-                  <p>You can easily build as many menus for your site. In fact the menu in the voyager admin is built using the menu builder. You can add/edit/delete menu items from as many menus as you would like. Then it's super easy to display your menu on the front-end of your app <code>Menu::display('main')</code></p>
+                  <p>You can easily build as many menus for your site. In fact the menu in the voyager admin is built using the menu builder. You can add/edit/delete menu items from as many menus as you would like. Then it's super easy to display your menu on the front-end of your app <code>menu('main')</code></p>
                 </div>
               </div>
             </div>
