@@ -408,7 +408,7 @@ In Voyager a Check Box is converted into a toggle switch, and as you can see abo
     "options" : {
         "option1": "Option 1 Text",
         "option2": "Option 2 Text"
-    }
+    }[]
 }
 ```
 
@@ -752,6 +752,10 @@ This is all handled via the `voyager.php` config, if you have not started with a
 You may want to look at the `/vendor/tcg/voyager/publishable/config/voyager.php` to see the config layout and check for any missing options.
 
 # Troubleshooting
+
+## Working with Coordinates
+
+See the following link: [https://github.com/the-control-group/voyager/pull/1433](https://github.com/the-control-group/voyager/pull/1433)
 
 ## Using HTTPS on your site
 

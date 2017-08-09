@@ -42,7 +42,7 @@
             <div class="col-md-8 col-md-offset-2">
               <p>Voyager is a Laravel Admin Package that includes BREAD(CRUD) operations,<br> a media manager, menu builder, and much more.</p>
               <a type="button" class="btn btn-default" href="https://github.com/the-control-group/voyager" target="_blank">View on Github</a> 
-              <a type="button" class="btn btn-primary" href="docs/" target="_blank">Documentation</a>
+              <a type="button" class="btn btn-primary" href="https://voyager.readme.io" target="_blank">Documentation</a>
             </div>
           </div>
           <div class="row preview">

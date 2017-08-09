@@ -35,7 +35,7 @@
             </a>
           </li>
           <li>
-            <a href="docs/" target="_blank" title="Documentation">
+            <a href="https://voyager.readme.io" target="_blank" title="Documentation">
               <span data-hover="Documentation">Docs</span>
             </a>
           </li>
