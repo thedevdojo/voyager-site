@@ -330,7 +330,7 @@ Voyager::can('browse_admin');
 
 This will either return true or throw a exception.
 
-> Please note that this behavoir will change in `v0.11`, so that `Voyager::can` will return a boolean, but instead you can then use the `Voyager::canOrFail` method to throw a exception.
+> Please note that this behaviour will change in `v0.11`, so that `Voyager::can` will return a boolean, but instead you can then use the `Voyager::canOrFail` method to throw a exception.
 
 Out of the box there are some permissions you can use by default:
 - `browse_admin`: Whether or not the user may browse the Voyager admin panel.
