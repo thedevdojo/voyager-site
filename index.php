@@ -73,9 +73,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center">
-              <span class="intro__subtitle uppercase">Ahoy matey and welcome aboard!</span>
+              <span class="intro__subtitle uppercase">Ahoy Matey & Welcome aboard!</span>
               <h2 class="intro__title">
-                Focus on what you do best, which is building the next kick-ass application, <br>and then let Voyager handle all your applications administrative tasks.
+                 Voyager will take care of your administrative tasks, this way you can<br> focus on what you do best, which is building the next kick-ass app!
               </h2>
             </div>
           </div>
