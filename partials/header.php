@@ -77,10 +77,10 @@
                   <a href="/">Home</a>
                 </li>
                 <li <?php if(isset($features) && $features): ?>class="active"<?php endif; ?>>
-                  <a href="/features">Features</a>
+                  <a href="/features/">Features</a>
                 </li>
                 <li <?php if(isset($academy) && $academy): ?>class="active"<?php endif; ?>>
-                  <a href="/academy">Academy</a>
+                  <a href="/academy/">Academy</a>
                 </li>
                 <li class="nav__dropdown">
                   <a href="/#_">Resources</a>
