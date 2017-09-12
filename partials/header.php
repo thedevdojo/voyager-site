@@ -6,7 +6,12 @@
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="">
+  <meta name="description" content="The Missing Admin for Laravel">
+
+  <meta property="og:title" content="Laravel Voyager" />
+  <meta property="og:description" content="The Missing Admin for Laravel" />
+  <meta property="og:url" content="https://laravelvoyager.com" />
+  <meta property="og:image" content="https://laravelvoyager.com/img/ogimage.png" />
   
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700%7CLato:300,400,400i,700' rel='stylesheet'>
