@@ -18,10 +18,10 @@
   <link rel="stylesheet" href="/css/style.css" />
 
   <!-- Favicons -->
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png">
 
 </head>
 
@@ -29,7 +29,7 @@
 
   <!-- Preloader -->
   <div id="loader-wrapper">
-    <img src="img/helm.png">
+    <img src="/img/helm.png">
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
   </div>
@@ -55,9 +55,9 @@
               <!-- Logo -->
               <div class="logo-wrap">
                 <a href="/" class="logo__link">
-                  <img class="logo logo--dark" src="img/logo_dark.png" alt="logo">
+                  <img class="logo logo--dark" src="/img/logo_dark.png" alt="logo">
                   <?php if(isset($home) && $home): ?>
-                    <img class="logo logo--light" src="img/logo_light.png" alt="logo">
+                    <img class="logo logo--light" src="/img/logo_light.png" alt="logo">
                   <?php endif; ?>
                 </a>
               </div>

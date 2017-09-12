@@ -8,7 +8,7 @@
 
               <div class="col-md-4 col-sm-3 col-xs-12">
                 <div class="widget footer__about-us">
-                  <img src="img/logo_dark.png" alt="" class="logo">
+                  <img src="/img/logo_dark.png" alt="" class="logo">
                   
                 </div>
               </div> <!-- end about us -->
