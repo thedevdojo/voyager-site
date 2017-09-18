@@ -1650,7 +1650,7 @@ img.mfp-img {
   padding-top: 0; }
 
 .mfp-iframe-holder .mfp-content {
-  max-width: 720px; }
+  max-width: 1080px; }
 
 .modal-body,
 .modal-footer {
@@ -1841,6 +1841,25 @@ img.mfp-img {
   outline:none;
 }
 
+.hero-img-link{
+  display:block;
+  cursor:pointer;
+}
+
+.hero-img .play-btn{
+    box-shadow: 0px 0px 18px 14px rgba(0, 0, 0, 0.3);
+    top: 52%;
+}
+
+.hero-img:hover .play-btn{
+  background: #32B7FF;
+  -webkit-transform: scale(0.93);
+  -moz-transform: scale(0.93);
+  -ms-transform: scale(0.93);
+  transform: scale(0.93);
+  color: #fff;
+}
+
 /*-------------------------------------------------------*/
 /* Benefits
 /*-------------------------------------------------------*/
@@ -1896,6 +1915,96 @@ img.academy{
   img.academy{
     display:none;
   }
+}
+
+section.academy{
+  background:#FAF8FB;
+}
+
+.academy h2{
+    padding: 25px;
+    background: #ffffff;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.about-academy{
+  background:#F7FBFF;
+  padding:30px;
+}
+.about-academy p{
+  margin-bottom:0px;
+}
+
+.left-nav-vids{
+  margin-right: 0px;
+  padding-right: 0px;
+  height: 100%;
+  background: #f1f1f9;
+  left: 15px;
+  border-left:1px solid #e9e9f4;
+  border-right:1px solid #e9e9f4;
+  margin-left:0px;
+  padding-left:0px;
+  list-style:none;
+}
+
+.left-nav-vids li{
+  list-style:none;
+}
+
+.left-nav-vids li.active a, .left-nav-vids li a:hover{
+  border-left:3px solid #22A7F0;
+  color:#22A7F0;
+  opacity:1;
+  transition:all 0.3s linear;
+}
+
+.left-nav-vids li a{
+  cursor:pointer;
+  display:block;
+  clear:both;
+  border-bottom:1px solid #eee;
+  background:#F6F6F8;
+  border-left:3px solid #F6F6F8;
+  transition:all 0.3s linear;
+  display: block;
+  float: left;
+  color:#999;
+  opacity:0.6;
+  font-size:12px;
+  font-weight:bold;
+  position:relative;
+  width:100%;
+}
+
+.left-nav-vids li a .playing-now{
+  position:absolute;
+  right:0px;
+  bottom:0px;
+  display:none;
+  background: #22A7F0;
+  color: #fff;
+  padding: 3px 5px;
+  font-style: normal;
+  font-size: 10px;
+  border-top-left-radius: 3px;
+  color: rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+}
+
+.left-nav-vids li.active a .playing-now{
+  display:block;
+}
+
+.left-nav-vids li a span small{
+  color:#777;
+  font-weight:normal;
+}
+
+.left-nav-vids li a img{
+  height: 60px;
+  margin: 18px;
+  margin-left: 15px;
 }
 /*-------------------------------------------------------*/
 /* Partners

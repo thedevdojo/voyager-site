@@ -17,14 +17,17 @@
                 
                 <a href="https://github.com/the-control-group/voyager" target="_blank" class="btn btn--lg btn--color rounded"><span><i class="voyager-github-icon" style="position:relative; left:-5px;"></i> View on Github</span></a>
                 <div class="play-btn__wrap">
-                  <a href="/https://www.youtube.com/embed/RSAnupACbhg?autoplay=1&showinfo=0" class="play-btn play-btn--sm play-btn--white single-video-lightbox" style="border:none;"></a>
-                  <a href="/https://www.youtube.com/embed/RSAnupACbhg?autoplay=1&showinfo=0" class="single-video-lightbox" style="border:none;"><span class="play-btn__text">Learn More</span></a>
+                  <a href="/https://www.youtube.com/embed/jp8_kA-9A4A?autoplay=1&showinfo=0&controls=0&rel=0" class="play-btn play-btn--sm play-btn--white single-video-lightbox" style="border:none;"></a>
+                  <a href="/https://www.youtube.com/embed/jp8_kA-9A4A?autoplay=1&showinfo=0&controls=0&rel=0" class="single-video-lightbox" style="border:none;"><span class="play-btn__text">Learn More</span></a>
                 </div>                
               </div>                  
             </div>
-            <div class="col-md-7 text-right hidden-sm hidden-xs">
-              <img src="img/hero/hero-app.png" class="mt-40 heroapp" alt="">
-            </div>
+            <div class="col-md-7 text-right hidden-sm hidden-xs hero-img">
+              <a href="/https://www.youtube.com/embed/jp8_kA-9A4A?autoplay=1&showinfo=0&controls=0&rel=0" class="hero-img-link single-video-lightbox">
+                <img src="img/hero/hero-app.png" class="mt-40 heroapp" alt="">
+              </a>
+              <a href="/https://www.youtube.com/embed/jp8_kA-9A4A?autoplay=1&showinfo=0&controls=0&rel=0" class="play-btn play-btn--center icon-wave single-video-lightbox"></a>
+            </a>
           </div>              
          
         </div>
@@ -88,7 +91,7 @@
           <div class="row flex-parent flex-vertical-align-center flex-sm-collapse">
             <div class="col-md-6 col-sm-12 col-xs-12">
               <img src="img/voyager-promo.png" alt="" class="promo-section__img">
-              <a href="/https://www.youtube.com/embed/RSAnupACbhg?autoplay=1&showinfo=0" class="play-btn play-btn--center icon-wave single-video-lightbox"></a>
+              <a href="/https://www.youtube.com/embed/jp8_kA-9A4A?autoplay=1&showinfo=0&controls=0&rel=0" class="play-btn play-btn--center icon-wave single-video-lightbox"></a>
             </div>
             <div class="col-md-5 col-md-offset-1 col-sm-12">
               <div class="promo-section__description">
