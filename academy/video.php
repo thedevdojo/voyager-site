@@ -1,13 +1,13 @@
-<link href="../css/video-js.min.css" rel="stylesheet" type="text/css">
-<link href="../css/videojs-resolution-switcher.css" rel="stylesheet">
-<link href="../css/videojs-tube.min.css" rel="stylesheet"/>
+<link href="/css/video-js.min.css" rel="stylesheet" type="text/css">
+<link href="/css/videojs-resolution-switcher.css" rel="stylesheet">
+<link href="/css/videojs-tube.min.css" rel="stylesheet"/>
 
   <!-- Include ES5 shim, sham and html5 shiv for ie8 support  -->
   <!-- Exclude this if you don't need ie8 support -->
-  <script src="../js/videojs-ie8.min.js"></script>
+  <script src="/js/videojs-ie8.min.js"></script>
 
   <!-- video.js must be in the <head> for older IEs to work. -->
-  <script src="../js/video.min.js"></script>
+  <script src="/js/video.min.js"></script>
 
     <div class="content-wrapper oh">
 
@@ -85,7 +85,7 @@
     </div> <!-- end content wrapper -->
   </main> <!-- end main wrapper -->
 
-<script src="../js/videojs-resolution-switcher.js"></script>
+<script src="/js/videojs-resolution-switcher.js"></script>
 <script>
   	player = videojs('voyager_academy', {
   		fluid: true
