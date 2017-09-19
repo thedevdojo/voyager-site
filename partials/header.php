@@ -31,7 +31,7 @@
 
 </head>
 
-<body>
+<body <?php if(isset($home) && $home){ echo 'class="home"'; } ?>>
 
   <!-- Preloader -->
   <div id="loader-wrapper">
@@ -41,9 +41,9 @@
   </div>
 
   <div id="voyager-notification">
-    <div class="container">
+    <!--div class="container">
       <p>Version 1.0 releasing next Monday (September 18th, 2017) <img class="emoji emoji-36" src="/img/emoji-party-popper.png"></p>
-    </div>
+    </div-->
   </div>
 
   <main class="main-wrapper">

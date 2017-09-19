@@ -1650,7 +1650,7 @@ img.mfp-img {
   padding-top: 0; }
 
 .mfp-iframe-holder .mfp-content {
-  max-width: 1080px; }
+  max-width: 920px; }
 
 .modal-body,
 .modal-footer {
@@ -1906,9 +1906,9 @@ img.mfp-img {
 img.academy{
   position: absolute;
   right: 20px;
-  top: -30px;
-  max-height: 135px;
-  height: 135px;
+  top: -18px;
+  max-height: 110px;
+  height: 110px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1922,10 +1922,16 @@ section.academy{
 }
 
 .academy h2{
-    padding: 25px;
-    background: #ffffff;
-    font-size: 30px;
-    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #22A7F0;
+    padding-left: 5px;
+}
+.about-academy-header{
+  background: #FFFFFF;
+  padding: 10px;
+  padding-top: 20px;
+  border-bottom: 1px solid #f1f1f9;
 }
 .about-academy{
   background:#F7FBFF;
@@ -1946,10 +1952,22 @@ section.academy{
   margin-left:0px;
   padding-left:0px;
   list-style:none;
+  overflow-y:scroll;
+}
+
+.left-nav-vids.hidden{
+  height: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 15px;
+  left: 0px;
+  margin-right: 15px;
 }
 
 .left-nav-vids li{
   list-style:none;
+  float:left;
+  width:100%;
 }
 
 .left-nav-vids li.active a, .left-nav-vids li a:hover{
@@ -2444,7 +2462,8 @@ section.academy{
   width: 100%;
   overflow: hidden;
   display: block;
-  padding: 50px 0;
+  padding: 30px 0;
+  padding-bottom: 35px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top; 
@@ -2473,7 +2492,7 @@ section.academy{
   .page-title__holder {
     max-width: 100%; }
   .page-title__title {
-    font-size: 38px;
+    font-size: 30px;
     line-height: 1.3;
     font-weight: 400;
     text-align:left;
@@ -3238,7 +3257,7 @@ header .flex-child.flex-right {
     position: absolute;
     top: 0;
     width: 100%;
-    margin-top:70px;
+    margin-top:10px;
     background-color: transparent; }
     .nav--transparent .logo--dark,
     .nav--transparent .nav__holder.scrolling .logo--light {
@@ -4469,7 +4488,11 @@ img.alignright {
   background-color:#4B7FF6;
   background:linear-gradient(135deg, rgba(103,79,245,1) 0%,rgba(47,175,247,1) 100%);
   width:100%;
-  height:60px;
+  height:6px;
+}
+
+body.home #voyager-notification{
+  display:none;
 }
 
 #voyager-notification p{

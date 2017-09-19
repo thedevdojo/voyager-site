@@ -31,33 +31,18 @@
       <!-- Features -->
       <section class="section-wrap pt-0 pb-0 bg-light features academy">
         
+        <div class="about-academy-header">
+          <div class="container">
+            <h2><?php if(isset($video->title)): ?><?php if(isset($video->number)){ echo $video->number . '. '; } ?><?= $video->title; ?><?php endif; ?></h2>
+          </div>
+        </div>
 
         <div class="container academy-container">
           <div class="row row-100 items-grid acadey-row">
 
-            <div class="col-md-3 col-lg-3 left-nav-vids no-float">
-              
-              	<div id="left_nav">
-
-					<ul>
-						<?php foreach($videos as $vid): ?>
-							<li <?php if($vid->url == $video->url){ echo 'class="active"'; } ?>>
-								<a href="<?= $vid->url ?>">
-									<img style="float:left" src="/img/academy/thumbnail.png">
-									<span class="info" style="float:left; width:50%; margin-top:29px;">
-										<i style="display:block; font-style:normal;"><?php if(isset($vid->number)){ echo $vid->number . '. '; } ?><?= $vid->title ?></i>
-										<small><?= $vid->time ?></small>		
-									</span>
-									<span style="clear:both"></span>
-									<i class="playing-now">Now Playing</i>
-								</a>
-							</li>
-						<?php endforeach; ?>
-						
-					</ul>
-
-				</div>
-
+            <div class="col-md-3 col-lg-3 left-nav-vids no-float hidden-sm hidden-xs" id="vidnav">
+              	<?php $include_ids = true; ?>
+              	<?php require 'vidnav.php'; ?>
             </div>
 
             <div id="vidColumn" class="col-md-9 col-lg-9 no-float">
@@ -75,7 +60,14 @@
 	              <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
 	            </video>
 
-	            	</div>
+	        </div>
+
+	        <div class="col-md-3 col-lg-3 left-nav-vids no-float hidden visible-sm visible-xs">
+              
+              	<?php $include_ids = false; ?>
+              	<?php require 'vidnav.php'; ?>
+
+            </div>
 
           </div>
         </div>
@@ -107,6 +99,17 @@
   		player.play();
   	});
   	<?php endif; ?>
+
+
+
+  	$('document').ready(function(){
+  		var topPos = document.getElementById('vidli_<?= $video->number; ?>').offsetTop;
+		setTimeout(function(){
+			$('#vidnav').scrollTop(topPos);
+		}, 1000);
+		
+	});
+
 
 	player.on('resolutionchange', function(){
 		curTime = player.currentTime();
