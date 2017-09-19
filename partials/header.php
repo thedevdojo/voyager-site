@@ -94,6 +94,7 @@
                   <ul class="nav__dropdown-menu dropdown-menu-animated">
                     <li><a href="https://larapack.io" target="_blank">Voyager Hooks</a></li>
                     <li><a href="https://voyager-cheatsheet.ulties.com/" target="_blank">Voyager Cheatsheet</a></li>
+                    <li><a href="https://github.com/larapack/awesome-voyager" target="_blank">Awesome Voyager</a></li>
                   </ul>
                 </li>
                 <li>
