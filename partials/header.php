@@ -101,13 +101,13 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="/docs" target="_blank">Documentation</a>
+                  <a href="/docs" target="_blank">Docs</a>
                 </li>        
 
               </ul> <!-- end menu -->
 
               <div class="nav__btn-holder">
-                <a href="https://github.com/the-control-group/voyager" target="_blank" class="btn btn--sm btn--color rounded"><span><i class="voyager-github-icon" style="margin-right:5px;"></i> View on Github</span></a>
+                <a href="https://github.com/the-control-group/voyager" target="_blank" class="btn btn--sm btn--color rounded"><span><i class="voyager-github-icon" style="margin-right:5px;"></i> Github</span></a>
               </div>
             </nav> <!-- end nav-wrap -->         
         
