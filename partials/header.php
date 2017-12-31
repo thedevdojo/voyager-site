@@ -88,6 +88,9 @@
                 <li <?php if(isset($academy) && $academy): ?>class="active"<?php endif; ?>>
                   <a href="/academy/">Academy</a>
                 </li>
+                <li <?php if(isset($lighthouse) && $lighthouse): ?>class="active"<?php endif; ?>>
+                  <a href="/lighthouse/">Lighthouse</a>
+                </li>
                 <li class="nav__dropdown">
                   <a href="/#_">Resources</a>
                   <i class="voyager-angle-down nav__dropdown-trigger"></i>
