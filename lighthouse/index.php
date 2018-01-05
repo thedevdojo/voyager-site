@@ -40,7 +40,7 @@
 
             <div class="col-md-6">
                <a href="https://codecanyon.net/item/ninja-media-script-viral-fun-media-sharing-site/6822888" class="box-shadow" target="_blank" style="cursor:pointer;">
-                <img src="https://s3.envato.com/files/181122239/inline-preview.jpg" style="width:100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
+                <img src="https://s3.amazonaws.com/devdojo.com/products/ninja-media-script/inline-preview.jpg" style="width:100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                 <div class="feature-1__base">
                   <h3 class="feature-1__title">Ninja Media Script</h3>
                   <p class="feature-1__paragraph">Create your own Media Sharing Site! Add unlimited pages, images, videos, gifs, etc... Loaded with themes and functionality to make it your own. Built using the latest version of Laravel Voyager.</p>
