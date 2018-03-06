@@ -58,18 +58,6 @@
               </a>
             </div>
 
-            <div class="col-md-6">
-               <a href="https://codecanyon.net/item/kita-multipurpose-portfolio-cms/20942962" class="box-shadow" target="_blank" style="cursor:pointer;">
-                <img src="https://s3.envato.com/files/236955030/inline.jpg" style="width:100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
-                <div class="feature-1__base">
-                  <h3 class="feature-1__title">Kita - Multipurpose portfolio CMS</h3>
-                  <p class="feature-1__paragraph">Create your own Portfolio website with Kita, built on top of Laravel and Voyager. Using Kita you can create site like a neitzite.com, ignant.com and much much more popular websites.</p>
-                </div>
-              </a>
-            </div>
-
-
-
           </div>
         </div>
         <p style="text-align:center"><a href="mailto:tony.lea@thecontrolgroup.com">Contact Me</a> to have your project displayed here.</p>
