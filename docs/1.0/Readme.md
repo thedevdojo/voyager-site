@@ -315,14 +315,14 @@ And your custom menu will now be output.
 
 ## Permissions
 
-Voyager comes with roles and permissions out of the box. Each user can be asigned to a role and each role can have a set of permissions. You can check for a certain permission on the user object the following way:
+Voyager comes with roles and permissions out of the box. Each user can be assigned to a role and each role can have a set of permissions. You can check for a certain permission on the user object the following way:
 
 ```
 $canVisitAdmin = $user->hasPermission('browse_admin');
 $canVisitAdmin = auth()->user()->hasPermission('browse_admin');
 ```
 
-The `hasPermission` method returns a boolean whether or not the user have a cetain permission. However you might wish to throw a forbidden exception if the user does not have a certain permission. This can be done using the `Voyager` facade:
+The `hasPermission` method returns a boolean whether or not the user have a certain permission. However you might wish to throw a forbidden exception if the user does not have a certain permission. This can be done using the `Voyager` facade:
 
 ```
 Voyager::can('browse_admin');
@@ -330,7 +330,7 @@ Voyager::can('browse_admin');
 
 This will either return true or throw a exception.
 
-> Please note that this behavoir will change in `v0.11`, so that `Voyager::can` will return a boolean, but instead you can then use the `Voyager::canOrFail` method to throw a exception.
+> Please note that this behaviour will change in `v0.11`, so that `Voyager::can` will return a boolean, but instead you can then use the `Voyager::canOrFail` method to throw a exception.
 
 Out of the box there are some permissions you can use by default:
 - `browse_admin`: Whether or not the user may browse the Voyager admin panel.
