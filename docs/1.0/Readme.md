@@ -105,7 +105,7 @@ NOTE: Please note that a dummy user is **only** created if there are no current 
 
 https://laravel-news.com/laravel-5-4-key-too-long-error
 
-If you did not go with the dummy user, you may wish to assign admin priveleges to an existing user.
+If you did not go with the dummy user, you may wish to assign admin privileges to an existing user.
 This can easily be done by running this command:
 
 ```bash
