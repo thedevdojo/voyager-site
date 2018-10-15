@@ -102,7 +102,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="/docs" target="_blank">Docs</a>
+                  <a href="https://docs.laravelvoyager.com/" target="_blank">Docs</a>
                 </li>        
 
               </ul> <!-- end menu -->
