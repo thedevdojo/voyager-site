@@ -1,5 +1,5 @@
 <?php
 
-header('location: https://voyager.readme.io/docs');
+header('location: https://docs.laravelvoyager.com');
 
 ?>
