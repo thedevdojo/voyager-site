@@ -29,7 +29,7 @@
           <div class="row row-60 items-grid">
 
             <div class="col-md-6">
-               <a href="https://codecanyon.net/item/geekshop-geeky-cool-product-site/19559053" class="box-shadow" target="_blank" style="cursor:pointer;">
+               <a href="https://devdojo.com/scripts/php/geekshop" class="box-shadow" target="_blank" style="cursor:pointer;">
                 <img src="https://s3.envato.com/files/229920141/inline-preview.jpg" style="width:100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                 <div class="feature-1__base">
                   <h3 class="feature-1__title">Geekshop</h3>
@@ -39,7 +39,7 @@
             </div>
 
             <div class="col-md-6">
-               <a href="https://codecanyon.net/item/ninja-media-script-viral-fun-media-sharing-site/6822888" class="box-shadow" target="_blank" style="cursor:pointer;">
+               <a href="https://devdojo.com/ninja-media-script" class="box-shadow" target="_blank" style="cursor:pointer;">
                 <img src="https://s3.amazonaws.com/devdojo.com/products/ninja-media-script/inline-preview.jpg" style="width:100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                 <div class="feature-1__base">
                   <h3 class="feature-1__title">Ninja Media Script</h3>
@@ -49,7 +49,7 @@
             </div>
 
             <div class="col-md-6">
-               <a href="https://codecanyon.net/item/pixel-v2-premium-download-script/19727095" class="box-shadow" target="_blank" style="cursor:pointer;">
+               <a href="https://devdojo.com/scripts/php/pixel" class="box-shadow" target="_blank" style="cursor:pointer;">
                 <img src="https://s3.envato.com/files/229916217/pixel-inline-preview.jpg" style="width:100%; border-top-left-radius: 3px; border-top-right-radius: 3px;">
                 <div class="feature-1__base">
                   <h3 class="feature-1__title">Pixel Download Script</h3>
