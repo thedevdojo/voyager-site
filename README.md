@@ -14,19 +14,19 @@ Next, you'll need to install the NPM modules by running:
 npm install
 ```
 
-Next, you can serve it up by running:
+Next, you will need to build a static local copy by running the following command:
+
+```
+./vendor/bin/jigsaw build
+```
+
+Then, you can serve it up by running:
 
 ```
 npm run watch
 ```
 
 The hosted version of the site will serve up at `http://localhost:3000`.
-
-If you are adding any new files you may need to `rebuild` the site by running the following command:
-
-```
-./vendor/bin/jigsaw build
-```
 
 ---
 
