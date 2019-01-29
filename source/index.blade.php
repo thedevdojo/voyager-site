@@ -11,7 +11,7 @@
           <div class="row hero__outer flex-vertical-align-center">
             <div class="col-md-5">
               <h1 class="hero__title hero--boxed">The Missing Laravel Admin</h1>
-              <p style="margin-right:20px;">Voyager is a Laravel Admin Package that includes BREAD(CRUD) operations, a media manager, menu builder, and much more.</p>
+              <p style="margin-right:20px;">Voyager is the Laravel Admin Package that includes BREAD(CRUD) operations, a media manager, menu builder, and much more.</p>
               <div class="hero__btn-holder mt-30">
 
                 <a href="https://github.com/the-control-group/voyager" target="_blank" class="btn btn--lg btn--color rounded"><span><i class="voyager-github-icon" style="position:relative; left:-5px;"></i> View on Github</span></a>
