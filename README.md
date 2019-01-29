@@ -30,7 +30,7 @@ The hosted version of the site will serve up at `http://localhost:3000`.
 
 ---
 
-## Updating Production
+## Send In Your PR
 
 You'll want to checkout a new branch and add your changes.
 
@@ -48,6 +48,20 @@ Next, make sure to do a new production build by running:
 
 Then, push your branch changes and open a PR to merge into `master`.
 
-After merged into the `master` branch the changes will be live.
+## Admins -- How To Deploy
+
+After merging the PR we will want to pull the latest version of master:
+
+```
+git pull origin master
+```
+
+Then we will deploy the `build_production` folder to the gh-pages branch like so:
+
+```
+git subtree push --prefix build_production origin gh-pages
+```
+
+Give it a few seconds and those changes will be live.
 
 Happy Sailing ;)
