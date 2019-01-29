@@ -56,12 +56,12 @@ After merging the PR we will want to pull the latest version of master:
 git pull origin master
 ```
 
-Then we will deploy the `build_production` folder to the gh-pages branch like so:
+Create a subtree {newBranchName} from the `build_production` folder:
 
 ```
-git subtree push --prefix build_production origin gh-pages
+git subtree push --prefix build_production origin {newBranchName}
 ```
 
-Give it a few seconds and those changes will be live.
+And merge the `{newBranchName}` into the `gh-pages` branch, give it a few seconds and those changes will be live.
 
 Happy Sailing ;)
