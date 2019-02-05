@@ -14,5 +14,5 @@ action "Push" {
     BUILD_DIR = "build_production/"
   }
   needs = ["Master branch"]
-  secrets = ["GITHUB_TOKEN"]
+  secrets = ["GH_PAT"]
 }
