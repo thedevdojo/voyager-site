@@ -9,10 +9,7 @@ action "Master branch" {
 }
 
 action "Push" {
-  uses = "maxheld83/ghpages@v0.1.1"
-  env = {
-    BUILD_DIR = "build_production/"
-  }
+  uses = "./actions/push"
   needs = ["Master branch"]
-  secrets = ["GH_PAT"]
+  secrets = ["GITHUB_TOKEN"]
 }
