@@ -9,8 +9,10 @@ action "Master branch" {
 }
 
 action "Push" {
-  uses = "JasonEtco/upload-to-gh-pages@master"
-  args = "build_production"
-  secrets = ["GITHUB_TOKEN"]
+  uses = "maxheld83/ghpages@v0.1.1"
+  env = {
+    BUILD_DIR = "build_production/"
+  }
   needs = ["Master branch"]
+  secrets = ["GITHUB_TOKEN"]
 }
