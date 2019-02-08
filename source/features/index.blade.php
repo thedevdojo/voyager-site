@@ -100,7 +100,7 @@
 		      </div>
 		    </div>
 		    <div class="btn-container">
-		      <a class="btn btn--lg btn--color rounded btn-action" href="/docs">View all features in the Documentation</a>
+		      <a class="btn btn--lg btn--color rounded btn-action" href="https://docs.laravelvoyager.com/">View all features in the Documentation</a>
 		    </div>
 		  </section> <!-- end features-section -->
 
