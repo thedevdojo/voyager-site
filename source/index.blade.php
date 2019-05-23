@@ -177,7 +177,6 @@
       </section> <!-- end promo section -->
 
 
-
       <!-- Newsletter -->
       <section class="section-wrap newsletter bg-img bg-overlay white-text relative stats" style="background-image: url(/assets/images/voyager-stats-bg.jpg);">
         <div class="container">
