@@ -9,23 +9,22 @@
         "watch": "npm run local -- --watch"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.3",
-        "browser-sync-webpack-plugin": "^2.0.1",
-        "cross-env": "^3.2.3",
+        "browser-sync": "^2.26.7",
+        "browser-sync-webpack-plugin": "^2.2.2",
+        "cross-env": "^7.0.2",
         "extra-watch-webpack-plugin": "^1.0.3",
         "hasbin": "^1.2.3",
-        "laravel-mix": "^4.0.0",
+        "laravel-mix": "^5.0.4",
         "node-cmd": "^3.0.0",
-        "sass": "^1.15.2",
-        "sass-loader": "^7.1.0",
-        "vue-template-compiler": "^2.5.22",
-        "yargs": "^4.6.0"
+        "sass": "^1.26.3",
+        "sass-loader": "^8.0.2",
+        "vue-template-compiler": "^2.6.11",
+        "yargs": "^15.3.1"
     },
     "dependencies": {
-        "bootstrap": "^3.4.0",
-        "bootstrap-sass": "^3.4.0",
-        "bootstrap-sass-loader": "^1.0.10",
-        "jquery": "^1.12.4",
-        "videojs": "^1.0.0"
+        "bootstrap-sass": "^3.4.1",
+        "jquery": "^3.4.1",
+        "magnific-popup": "^1.1.0",
+        "video.js": "^7.7.5"
     }
 }

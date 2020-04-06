@@ -1,0 +1,68 @@
+/*!
+ * Bootstrap v3.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under the MIT license
+ */
+
+/*!
+ * Sizzle CSS Selector Engine v2.3.4
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://js.foundation/
+ *
+ * Date: 2019-04-08
+ */
+
+/*!
+ * jQuery JavaScript Library v3.4.1
+ * https://jquery.com/
+ *
+ * Includes Sizzle.js
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2019-05-01T21:04Z
+ */
+
+/*! @name m3u8-parser @version 4.4.0 @license Apache-2.0 */
+
+/*! @name mpd-parser @version 0.8.1 @license Apache-2.0 */
+
+/*! Magnific Popup - v1.1.0 - 2016-02-20
+* http://dimsemenov.com/plugins/magnific-popup/
+* Copyright (c) 2016 Dmitry Semenov; */
+
+/*! modernizr 3.6.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-matchmedia-mediaqueries-setclasses !*/
+
+/**
+   * @license
+   * slighly modified parse-headers 2.0.2 <https://github.com/kesla/parse-headers/>
+   * Copyright (c) 2014 David Björklund
+   * Available under the MIT license
+   * <https://github.com/kesla/parse-headers/blob/master/LICENCE>
+   */
+
+/**
+   * @videojs/http-streaming
+   * @version 1.11.2
+   * @copyright 2019 Brightcove, Inc
+   * @license Apache-2.0
+   */
+
+/**
+ * @license
+ * Video.js 7.7.5 <http://videojs.com/>
+ * Copyright Brightcove, Inc. <https://www.brightcove.com/>
+ * Available under Apache License Version 2.0
+ * <https://github.com/videojs/video.js/blob/master/LICENSE>
+ *
+ * Includes vtt.js <https://github.com/mozilla/vtt.js>
+ * Available under Apache License Version 2.0
+ * <https://github.com/mozilla/vtt.js/blob/master/LICENSE>
+ */
