@@ -5,6 +5,10 @@
  */
 
 /*!
+ * Programatically add the following
+ */
+
+/*!
  * Sizzle CSS Selector Engine v2.3.4
  * https://sizzlejs.com/
  *
@@ -13,6 +17,13 @@
  * https://js.foundation/
  *
  * Date: 2019-04-08
+ */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <http://feross.org>
+ * @license  MIT
  */
 
 /*!
@@ -29,6 +40,8 @@
  * Date: 2019-05-01T21:04Z
  */
 
+/*! @name @videojs/vhs-utils @version 1.3.0 @license MIT */
+
 /*! @name m3u8-parser @version 4.4.0 @license Apache-2.0 */
 
 /*! @name mpd-parser @version 0.8.1 @license Apache-2.0 */
@@ -39,6 +52,11 @@
 
 /*! modernizr 3.6.0 (Custom Build) | MIT *
  * https://modernizr.com/download/?-matchmedia-mediaqueries-setclasses !*/
+
+/*! videojs-resolution-switcher - 2015-7-26
+* Copyright (c) 2016 Kasper Moskwiak
+* Modified by Pierre Kraft and Derk-Jan Hartman
+* Licensed under the Apache-2.0 license. */
 
 /**
    * @license
@@ -65,4 +83,11 @@
  * Includes vtt.js <https://github.com/mozilla/vtt.js>
  * Available under Apache License Version 2.0
  * <https://github.com/mozilla/vtt.js/blob/master/LICENSE>
+ */
+
+/**
+ * @videojs/http-streaming
+ * @version 1.11.2
+ * @copyright 2019 Brightcove, Inc
+ * @license Apache-2.0
  */
