@@ -25,7 +25,7 @@
         "bootstrap": "^3.4.0",
         "bootstrap-sass": "^3.4.0",
         "bootstrap-sass-loader": "^1.0.10",
-        "jquery": "^1.12.4",
+        "jquery": "^3.5.0",
         "videojs": "^1.0.0"
     }
 }
