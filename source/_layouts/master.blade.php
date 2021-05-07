@@ -10,8 +10,8 @@
 
   <meta property="og:title" content="Laravel Voyager" />
   <meta property="og:description" content="The Missing Admin for Laravel" />
-  <meta property="og:url" content="https://laravelvoyager.com" />
-  <meta property="og:image" content="https://laravelvoyager.com/assets/images/ogimage.png" />
+  <meta property="og:url" content="https://voyager.devdojo.com" />
+  <meta property="og:image" content="https://voyager.devdojo.com/assets/images/ogimage.png" />
 
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700%7CLato:300,400,400i,700' rel='stylesheet'>
@@ -98,7 +98,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="https://docs.laravelvoyager.com/" target="_blank">Docs</a>
+                  <a href="https://voyager-docs.devdojo.com/" target="_blank">Docs</a>
                 </li>
 
             </ul> <!-- end menu -->
@@ -141,7 +141,7 @@
                     <li><a href="/academy">Academy</a></li>
                     <li><a href="https://larapack.io" target="_blank">Voyager Hooks</a></li>
                     <li><a href="https://voyager-cheatsheet.ulties.com/" target="_blank">Voyager Cheatsheet</a></li>
-                    <li><a href="https://docs.laravelvoyager.com/" target="_blank">Documentation</a></li>
+                    <li><a href="https://voyager-docs.devdojo.com/" target="_blank">Documentation</a></li>
                   </ul>
                 </div>
               </div>
