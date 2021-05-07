@@ -4,6 +4,6 @@ RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
 RewriteEngine On 
-RewriteCond %{HTTP_HOST} ^laravelvoyager\.com [NC]
+RewriteCond %{HTTP_HOST} ^voyager-docs.devdojo\.com [NC]
 RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://laravelvoyager.com/$1 [R,L]
+RewriteRule ^(.*)$ https://voyager-docs.devdojo.com/$1 [R,L]
