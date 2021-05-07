@@ -1,6 +1,6 @@
-# LaravelVoyager.com
+# voyager.devdojo.com
 
-This is the repo for the new LaravelVoyager.com website. This site has been rebuilt using the [JigSaw Static site generator](https://jigsaw.tighten.co/)
+This is the repo for the new voyager.devdojo.com website. This site has been rebuilt using the [JigSaw Static site generator](https://jigsaw.tighten.co/)
 
 To get started with a local copy, simply clone the repo and then run:
 
