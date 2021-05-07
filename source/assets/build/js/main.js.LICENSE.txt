@@ -9,14 +9,14 @@
  */
 
 /*!
- * Sizzle CSS Selector Engine v2.3.4
+ * Sizzle CSS Selector Engine v2.3.6
  * https://sizzlejs.com/
  *
  * Copyright JS Foundation and other contributors
  * Released under the MIT license
  * https://js.foundation/
  *
- * Date: 2019-04-08
+ * Date: 2021-02-16
  */
 
 /*!
@@ -27,28 +27,32 @@
  */
 
 /*!
- * jQuery JavaScript Library v3.4.1
+ * jQuery JavaScript Library v3.6.0
  * https://jquery.com/
  *
  * Includes Sizzle.js
  * https://sizzlejs.com/
  *
- * Copyright JS Foundation and other contributors
+ * Copyright OpenJS Foundation and other contributors
  * Released under the MIT license
  * https://jquery.org/license
  *
- * Date: 2019-05-01T21:04Z
+ * Date: 2021-03-02T17:08Z
  */
 
-/*! @name @videojs/vhs-utils @version 1.3.0 @license MIT */
+/*! @name @videojs/http-streaming @version 2.7.1 @license Apache-2.0 */
 
-/*! @name m3u8-parser @version 4.4.0 @license Apache-2.0 */
+/*! @name aes-decrypter @version 3.1.2 @license Apache-2.0 */
 
-/*! @name mpd-parser @version 0.8.1 @license Apache-2.0 */
+/*! @name m3u8-parser @version 4.6.0 @license Apache-2.0 */
+
+/*! @name pkcs7 @version 1.0.4 @license Apache-2.0 */
 
 /*! Magnific Popup - v1.1.0 - 2016-02-20
 * http://dimsemenov.com/plugins/magnific-popup/
 * Copyright (c) 2016 Dmitry Semenov; */
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
 /*! modernizr 3.6.0 (Custom Build) | MIT *
  * https://modernizr.com/download/?-matchmedia-mediaqueries-setclasses !*/
@@ -67,27 +71,13 @@
    */
 
 /**
-   * @videojs/http-streaming
-   * @version 1.11.2
-   * @copyright 2019 Brightcove, Inc
-   * @license Apache-2.0
-   */
-
-/**
  * @license
- * Video.js 7.7.5 <http://videojs.com/>
+ * Video.js 7.12.1 <http://videojs.com/>
  * Copyright Brightcove, Inc. <https://www.brightcove.com/>
  * Available under Apache License Version 2.0
- * <https://github.com/videojs/video.js/blob/master/LICENSE>
+ * <https://github.com/videojs/video.js/blob/main/LICENSE>
  *
  * Includes vtt.js <https://github.com/mozilla/vtt.js>
  * Available under Apache License Version 2.0
- * <https://github.com/mozilla/vtt.js/blob/master/LICENSE>
- */
-
-/**
- * @videojs/http-streaming
- * @version 1.11.2
- * @copyright 2019 Brightcove, Inc
- * @license Apache-2.0
+ * <https://github.com/mozilla/vtt.js/blob/main/LICENSE>
  */

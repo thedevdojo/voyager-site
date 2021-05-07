@@ -1,30 +1,30 @@
 {
     "private": true,
     "scripts": {
-        "local": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "staging": "cross-env NODE_ENV=staging node_modules/webpack/bin/webpack.js --progress --hide-modules --env=staging --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "local": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "staging": "cross-env NODE_ENV=staging node_modules/webpack/bin/webpack.js --progress --env=staging --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
         "dev": "npm run local",
         "prod": "npm run production",
         "watch": "npm run local -- --watch"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.7",
-        "browser-sync-webpack-plugin": "^2.2.2",
-        "cross-env": "^7.0.2",
+        "browser-sync": "^2.26.14",
+        "browser-sync-webpack-plugin": "^2.3.0",
+        "cross-env": "^7.0.3",
         "extra-watch-webpack-plugin": "^1.0.3",
         "hasbin": "^1.2.3",
-        "laravel-mix": "^5.0.4",
-        "node-cmd": "^3.0.0",
-        "sass": "^1.26.3",
-        "sass-loader": "^8.0.2",
-        "vue-template-compiler": "^2.6.11",
-        "yargs": "^15.3.1"
+        "laravel-mix": "^6.0.19",
+        "node-cmd": "^4.0.0",
+        "postcss": "^8.1.14",
+        "sass": "^1.32.12",
+        "sass-loader": "^11.0.1",
+        "yargs": "^17.0.1"
     },
     "dependencies": {
         "bootstrap-sass": "^3.4.1",
-        "jquery": "^3.4.1",
+        "jquery": "^3.6.0",
         "magnific-popup": "^1.1.0",
-        "video.js": "^7.7.5"
+        "video.js": "^7.12.1"
     }
 }
