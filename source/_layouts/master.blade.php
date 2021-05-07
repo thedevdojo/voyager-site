@@ -192,16 +192,6 @@
     </div> <!-- end content wrapper -->
   </main> <!-- end main wrapper -->
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-98460600-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-98460600-1');
-  </script>
-
   <!-- jQuery Scripts -->
   <script type="text/javascript" src="{{ mix('js/main.js', 'assets/build') }}"></script>
 

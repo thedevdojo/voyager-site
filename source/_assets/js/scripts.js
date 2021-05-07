@@ -12,7 +12,6 @@
       }, 1000);
 
     $('.loader-mask').delay(350).fadeOut('slow');
-    initOwlCarousel();
 
     $(window).trigger("resize");
 
@@ -41,14 +40,6 @@
   $(window).resize(function(){
     containerFullHeight();
     stickyNavRemove();
-
-    if (minWidth(992)) {
-      $('.local-scroll.mobile-offset-0').localScroll({offset: {top: -60},duration: 1500,easing:'easeInOutExpo'});
-      $('.local-scroll.desktop-offset-0').localScroll({offset: {top: 0},duration: 1500,easing:'easeInOutExpo'});
-    } else {
-      $('.local-scroll.desktop-offset-0').localScroll({offset: {top: -60},duration: 1500,easing:'easeInOutExpo'});
-      $('.local-scroll.mobile-offset-0').localScroll({offset: {top: 0},duration: 1500,easing:'easeInOutExpo'});
-    }
 
   });
 
@@ -128,8 +119,6 @@
 
 
   // Smooth Scroll Navigation
-  $('.local-scroll').localScroll({offset: {top: -60},duration: 1500,easing:'easeInOutExpo'});
-  $('.local-scroll-no-offset').localScroll({offset: {top: 0},duration: 1500,easing:'easeInOutExpo'});
 
 
   /* Mobile Navigation
@@ -158,81 +147,6 @@
       $('.nav__dropdown-menu').removeClass('hide-dropdown');
     });
   }
-
-
-
-  /* Pricing switcher
-  -------------------------------------------------------*/
-  var price = $('.pricing__price');
-  var year = $("#year");
-  var month = $("#month");
-
-
-  year.on('click', function(){
-    $(this).addClass('active');
-    month.removeClass('active');
-    price.each(function() {
-      $(this).text( $(this).data('year-price') );
-    });
-  });
-
-  month.on('click', function(){
-    $(this).addClass('active');
-    year.removeClass('active');
-    price.each(function() {
-      $(this).text( $(this).data('month-price') );
-    });
-  });
-
-
-  /* Owl Carousel
-  -------------------------------------------------------*/
-
-  function initOwlCarousel(){
-    (function($){
-      "use strict";
-
-      /* Testimonials
-      -------------------------------------------------------*/
-
-      $("#owl-testimonials").owlCarousel({
-        navigation: false,
-        autoHeight: true,
-        slideSpeed: 300,
-        pagination: true,
-        paginationSpeed: 400,
-        stopOnHover: true,
-        itemsCustom: [
-          [0, 1],
-          [450, 1],
-          [500, 2],
-          [1200, 3]
-        ]
-      })
-
-
-      /* Apps Slider
-      -------------------------------------------------------*/
-
-      $("#owl-apps-slider").owlCarousel({
-        autoPlay: 3000,
-        navigation: false,
-        slideSpeed: 300,
-        pagination: true,
-        paginationSpeed: 400,
-        stopOnHover: true,
-        itemsCustom: [
-          [0, 1],
-          [450, 1],
-          [500, 2],
-          [1200, 3]
-        ]
-      })
-
-    })(jQuery);
-  };
-
-
 
   /* Lightbox popup
   -------------------------------------------------------*/

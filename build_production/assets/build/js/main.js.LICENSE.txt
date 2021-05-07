@@ -1,0 +1,83 @@
+/*!
+ * Bootstrap v3.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under the MIT license
+ */
+
+/*!
+ * Programatically add the following
+ */
+
+/*!
+ * Sizzle CSS Selector Engine v2.3.6
+ * https://sizzlejs.com/
+ *
+ * Copyright JS Foundation and other contributors
+ * Released under the MIT license
+ * https://js.foundation/
+ *
+ * Date: 2021-02-16
+ */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <http://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * jQuery JavaScript Library v3.6.0
+ * https://jquery.com/
+ *
+ * Includes Sizzle.js
+ * https://sizzlejs.com/
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2021-03-02T17:08Z
+ */
+
+/*! @name @videojs/http-streaming @version 2.7.1 @license Apache-2.0 */
+
+/*! @name aes-decrypter @version 3.1.2 @license Apache-2.0 */
+
+/*! @name m3u8-parser @version 4.6.0 @license Apache-2.0 */
+
+/*! @name pkcs7 @version 1.0.4 @license Apache-2.0 */
+
+/*! Magnific Popup - v1.1.0 - 2016-02-20
+* http://dimsemenov.com/plugins/magnific-popup/
+* Copyright (c) 2016 Dmitry Semenov; */
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*! modernizr 3.6.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-matchmedia-mediaqueries-setclasses !*/
+
+/*! videojs-resolution-switcher - 2015-7-26
+* Copyright (c) 2016 Kasper Moskwiak
+* Modified by Pierre Kraft and Derk-Jan Hartman
+* Licensed under the Apache-2.0 license. */
+
+/**
+   * @license
+   * slighly modified parse-headers 2.0.2 <https://github.com/kesla/parse-headers/>
+   * Copyright (c) 2014 David Björklund
+   * Available under the MIT license
+   * <https://github.com/kesla/parse-headers/blob/master/LICENCE>
+   */
+
+/**
+ * @license
+ * Video.js 7.12.1 <http://videojs.com/>
+ * Copyright Brightcove, Inc. <https://www.brightcove.com/>
+ * Available under Apache License Version 2.0
+ * <https://github.com/videojs/video.js/blob/main/LICENSE>
+ *
+ * Includes vtt.js <https://github.com/mozilla/vtt.js>
+ * Available under Apache License Version 2.0
+ * <https://github.com/mozilla/vtt.js/blob/main/LICENSE>
+ */

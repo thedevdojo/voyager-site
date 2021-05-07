@@ -2,14 +2,15 @@ window.jQuery = window.$ = require('jquery');
 var bootstrap = require('bootstrap-sass/assets/javascripts/bootstrap.min.js');
 
 require('./plugins.js');
+
+require('magnific-popup');
+
 require('./scripts.js');
 
-require('./videojs-ie8.min.js');
-window.videojs = require('./video.min.js');
+window.videojs = require('video.js/dist/video.min.js');
 require('./videojs-resolution-switcher.js');
-
 // Functionality for Academy page
-if(document.getElementById('voyager_academy')){
+if (document.getElementById('voyager_academy')) {
 	player = videojs('voyager_academy', {
   		fluid: true
   	});
@@ -21,8 +22,6 @@ if(document.getElementById('voyager_academy')){
   		player.play();
   	});
 
-
-
   	$('document').ready(function(){
   		var topPos = document.getElementById('vidli_1').offsetTop;
 		setTimeout(function(){
@@ -31,12 +30,10 @@ if(document.getElementById('voyager_academy')){
 
 	});
 
-
 	player.on('resolutionchange', function(){
 		curTime = player.currentTime();
 		player.play();
 		resChange = true;
-
   	});
 
    	player.on('play', function(){
