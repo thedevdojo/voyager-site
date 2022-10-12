@@ -25,6 +25,6 @@
         "bootstrap-sass": "^3.4.1",
         "jquery": "^3.6.0",
         "magnific-popup": "^1.1.0",
-        "video.js": "^7.12.1"
+        "video.js": "^7.20.3"
     }
 }
